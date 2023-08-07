@@ -1,0 +1,8 @@
+.foot1{background-color: rgba(82, 81, 81, 0.566); font-size: 1.2em; text-align: right; display: grid; align-content: center; font-weight: bold; letter-spacing:0.1em; color: rgba(11, 9, 9, 0.416); padding-right: 12%;} 
+
+@media (orientation:landscape) and (min-width:200px) and (max-width:768px)
+{
+  .head1{padding: 1%; font-size: 1em;}
+
+}
+

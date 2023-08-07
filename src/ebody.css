@@ -1,0 +1,25 @@
+.ebody1{margin: 2px; background-color: rgb(133, 254, 214);}
+label{color: rgba(0, 0, 0, 0.718); font-size: 0.8em; margin-bottom: 8px;}
+.card{box-shadow: 2px 2px 8px gray; width: 28%;}
+.bi-cart4{position: absolute; z-index: 0;}
+.coun{position: absolute; z-index: 1; margin-top:-10px; margin-left: 5px; background-color: brown; border-radius: 60px; padding: 0px 3px; font-size: 0.8em; box-shadow: 2px 2px 4px black;}
+.text1{padding: 0px 5px 0px 25px;}
+nav{margin-left: 2px;}
+aside{padding-top: 15px;}
+.table{width: 90%;}
+td th{padding: 5%;}
+.btn1{ color: rgb(115, 114, 114); font-size: 0.8em; border-color: gray; text-align: center;}
+.btn-primary{width: 100%;}
+
+@media  screen and (max-width:760px) {
+    nav{margin-right: 4%;} aside{margin-left: -10%; font-size: 0.5%; width: max-content; }
+    .card{width: 80%; }
+    .text1{margin: 0px 0px 0px 1px; font-size:0.6em; }
+    .btn-primary{width:150%;  }
+    .ebody1{background-color: rgba(232, 163, 250, 0.863);}
+    
+}
+
+@media  screen and (min-width:761px) and (max-width:900px) {
+    .card{width: 40%;}
+}
